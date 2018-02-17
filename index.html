@@ -4,17 +4,19 @@
 <head>
 	<meta charset=”utf-8”>
 	<title>RAM: Learning Resource</title>
+	<!--Importing bootstrap. Link for bootstrap: https://getbootstrap.com/docs/4.0/components/carousel/ -->
 	<link rel="stylesheet" href=
 	"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 	 integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 	  crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="CSS/style.css">
-	<link rel="stylesheet" type="text/css" href="CSS/style-home.css">
+	<!--Styling the "top"--><link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<!--Styling the rest of the page.--><link rel="stylesheet" type="text/css" href="CSS/style-home.css">
 
 </head>
 <body>
-		<div class="container">
-	 <div id="includedContent"></div>
+		<!--More bootstrap stuff--><div class="container">
+	 <!--Displaying the top.html file here--><div id="includedContent"></div>
+
 	<!--div id="top">
 		<h1 align = "center">RAM: Learning Resource</h1>
 		<table align = "center">
@@ -42,7 +44,9 @@
 			media, such as hard drives, CD, floppy disks, and USB drives, RAM can be
 			read from and written to quickly. However, its data is lost each time the
 			computer is powered off.</p>
-			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		<!--This is all the code for the carousel where you click on the arrow etc.
+	I imported the code from bootstrap. We don't really need to know how it works.
+-->	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 			  <ol class="carousel-indicators">
 			    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 			    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -68,16 +72,16 @@
 			    <span class="sr-only">Next</span>
 			  </a>
 			</div>
-		<img id = "image" src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX19208765.jpg" alt="An image depicting RAM conne
-		cted to the motherboard." width="500px">
 		<p>An evolution from old technology, RAM was developed as a more efficient,
 			 durable, and cheaper replacement to magnetic core memory.</p>
 
 	</div>
 </div>
+	<!--More importing script form bootstrap to get the carousel thingy to work.-->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--Importing code from "top.html"-->
 	<script
   src="http://code.jquery.com/jquery-2.2.4.min.js"
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
