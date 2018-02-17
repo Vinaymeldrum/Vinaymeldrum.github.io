@@ -6,10 +6,19 @@
 	<title>RAM: Learning Resource</title>
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
 	<link rel="stylesheet" type="text/css" href="CSS/style-home.css">
+	<script
+  src="http://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+	 <script>
+	 $(function(){
+		 $("#includedContent").load("HTML/top.html");
+	 });
+	 </script>
 </head>
-
 <body>
-	<div id="top">
+	 <div id="includedContent"></div>
+	<!--div id="top">
 		<h1 align = "center">RAM: Learning Resource</h1>
 		<table align = "center">
 			<thead>
@@ -23,7 +32,7 @@
 				</tr>
 			</thead>
 		</table>
-		</div>
+	</div-->
 	<div id="information-tab">
 		<h3>Welcome to this webpage!</h3>
 		<p>This webpage will teach you all about <strong>RAM</strong>, also known as Random access
