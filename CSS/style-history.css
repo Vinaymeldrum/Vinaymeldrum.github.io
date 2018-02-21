@@ -7,3 +7,10 @@
 body {
   background-color: #006494;
 }
+
+#robertdennard-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+}
