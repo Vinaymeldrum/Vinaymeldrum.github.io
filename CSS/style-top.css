@@ -1,7 +1,7 @@
 h1 {
   background-color: #13293D;
   color: white;
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", fantasy;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
 }
 
 th {
@@ -12,7 +12,7 @@ th {
   padding: 20px;
   width: 75px;
   height: 50px;
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Helvetica", cursive;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 20px;
   margin: 20px;
 }
