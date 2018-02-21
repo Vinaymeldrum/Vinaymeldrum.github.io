@@ -9,7 +9,7 @@
 	<!-- Styling top portion of page. -->
 	<link rel="stylesheet" type="text/css" href="CSS/style-top.css">
 	<!-- Styling remainder of the page. -->
-	<link rel="stylesheet" type="text/css" href="CSS/style-home.css">
+	<link rel="stylesheet" type="text/css" href="CSS/style-bodycontent.css">
 </head>
 
 <body>
@@ -18,17 +18,14 @@
 		<!-- Displaying top.html. -->
 		<div id="includedContent"></div>
 		<!-- Text content. -->
-		<div id="home-tab">
+		<div id="bodycontent">
 			<h3>Welcome to RAM: Learning Resource!</h3>
 			<p>From this webpage, you can learn all about <strong>random access memory</strong>, also more commonly known as RAM.</p>
 			<p>Random access memory, more commonly abbreviated as RAM, is a computer component that allows the processor to quickly access data by temporarily storing the operating system, programs and data that are in current use. In contrast with other data storage
 				media, such as hard drives, CDs, floppy disks, and USB drives, RAM can be read from and written to quickly. However, its data is lost each time the computer is powered off.</p>
 			<p>An evolution from old technology, RAM was developed as a more efficient, durable, and cheaper replacement to magnetic core memory.</p>
 			<!-- Code imported from Bootstrap for carousel. Displays images in a slideshow format with indicators, and allows controls. -->
-			<div class="row">
-				<div class="col"></div>
-				<div class="col-sm">
-					<div id="ram-slideshow" class="carousel slide" data-ride="carousel">
+					<div id="ram-slideshow" class="carousel slide" data-ride="carousel" style="margin: auto; width: 500px">
 						<!-- Image indicators -->
 						<ol class="carousel-indicators">
 							<li data-target="#ram-slideshow" data-slide-to="0" class="active"></li>
@@ -57,30 +54,13 @@
 			    		<span class="sr-only">Next</span>
 			  		</a>
 					</div>
-				</div>
-			</div>
 		</div>
 		<!-- Importing Bootstrap code for JavaScript, Popper.js, and jQuery. Allows carousel to function. -->
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		<!-- Importing code from top.html -->
-		<!--script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script-->
-		<script>
-			function load(url, element) {
-				req = new XMLHttpRequest();
-				req.open("GET", url, false);
-				req.send(null);
-
-				element.innerHTML = req.responseText;
-			}
-
-			load("top.html", document.getElementById("includedContent"));
-
-			// $(function() {
-			// 	$("#includedContent").load("top.html");
-			// });
-		</script>
+    <script src="run-top-html.js"></script>
 	</div>
 </body>
 
