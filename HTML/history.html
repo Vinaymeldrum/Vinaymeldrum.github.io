@@ -2,19 +2,48 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <title>History - RAM: Learning Resource</title>
-  <!--Styling the "top"-->
+  <!-- Importing Bootstrap library. Source: https://getbootstrap.com/docs/4.0/components/carousel/ -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Styling top portion of page. -->
   <link rel="stylesheet" type="text/css" href="CSS/style-top.css">
-  <!--Styling the rest of the page.-->
+  <!-- Styling remainder of the page. -->
   <link rel="stylesheet" type="text/css" href="CSS/style-history.css">
-  <link rel="stylesheet" type="text/css" href="HTML/top">
 </head>
 
 <body>
-  <div id="history-tab">
-    <h1>The History of RAM</h1>
-    <p>Random access memory (originally known as Dynamic random access memory, or DRAM) was originally created in 1968 as a replacement to magnetic core memory.
+  <!-- Bootstrap code. -->
+  <div class="container">
+    <!-- Displaying top.html. -->
+    <div id="includedContent"></div>
+    <!-- Text content. -->
+    <div id="history-tab">
+      <h1>The History of RAM</h1>
+      <p>Random access memory (originally known as Dynamic random access memory, or DRAM) was originally created in 1968 as a replacement to magnetic core memory.</p>
+    </div>
+
+    <!-- Importing Bootstrap code for JavaScript, Popper.js, and jQuery. -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Importing code from top.html -->
+    <!--script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script-->
+    <script>
+      function load(url, element) {
+        req = new XMLHttpRequest();
+        req.open("GET", url, false);
+        req.send(null);
+
+        element.innerHTML = req.responseText;
+      }
+
+      load("HTML/top.html", document.getElementById("includedContent"));
+
+      // $(function() {
+      // 	$("#includedContent").load("HTML/top.html");
+      // });
+    </script>
   </div>
 </body>
 
