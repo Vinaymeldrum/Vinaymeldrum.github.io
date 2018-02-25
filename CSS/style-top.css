@@ -3,44 +3,46 @@ h1 {
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
   padding-top: 20px;
-  width: ;
   length: 3px;
-  position: relative;
-
+  float: left;
+  width: 1110px;
+  position: fixed;
+  font-size: 35px;
+  height: 90px;
 }
 
 th {
   display: inline-block
   color: white;
-  padding: 20px;
+  padding: 5px;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 20px;
-  width: 154px;
+  position: fixed;
 }
 
 #home{
-  left: 550px;
-  bottom: 875px;
+  left: 850px;
+  bottom: 945px;
 }
 #history{
-  left: 700px;
-  bottom: 875px;
+  left: 950px;
+  bottom: 945px;
 }
 #functions{
-  left: 850px;
-  bottom: 875px;
+  left: 1050px;
+  bottom: 945px;
 }
 #others{
-  left: 1000px;
-  bottom: 875px;
+  left: 1150px;
+  bottom: 945px;
 }
 #about{
-  left: 1150px;
-  bottom: 875px;
+  left: 1250px;
+  bottom: 945px;
 }
 #resources{
-  left: 1300px;
-  bottom: 875px;
+  left: 1350px;
+  bottom: 945px;
 }
 th a {
   color: #DDDDDD;
@@ -58,5 +60,5 @@ table {
   border-collapse: separate;
   border-spacing: 4px;
   background-color: #13293D;
-  position: fixed;
+  position: relative;
 }
