@@ -2,7 +2,11 @@ h1 {
   background-color: #13293D;
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
-  padding-top: 20px
+  padding-top: 20px;
+  width: ;
+  length: 3px;
+  position: relative;
+
 }
 
 th {
@@ -11,8 +15,33 @@ th {
   padding: 20px;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 20px;
+  width: 154px;
 }
 
+#home{
+  left: 550px;
+  bottom: 875px;
+}
+#history{
+  left: 700px;
+  bottom: 875px;
+}
+#functions{
+  left: 850px;
+  bottom: 875px;
+}
+#others{
+  left: 1000px;
+  bottom: 875px;
+}
+#about{
+  left: 1150px;
+  bottom: 875px;
+}
+#resources{
+  left: 1300px;
+  bottom: 875px;
+}
 th a {
   color: #DDDDDD;
 }
@@ -28,4 +57,6 @@ th a:hover {
 table {
   border-collapse: separate;
   border-spacing: 4px;
+  background-color: #13293D;
+  position: fixed;
 }
