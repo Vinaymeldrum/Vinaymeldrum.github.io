@@ -9,6 +9,7 @@ h1 {
   position: fixed;
   font-size: 35px;
   height: 90px;
+  padding-left: 10px;
 }
 
 th {
