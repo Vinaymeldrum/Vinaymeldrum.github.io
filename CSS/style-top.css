@@ -12,7 +12,7 @@ h1 {
 }
 
 th {
-  display: inline-block
+  display: inline-block;
   color: white;
   padding: 5px;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
