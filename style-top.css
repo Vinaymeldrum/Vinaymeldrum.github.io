@@ -35,16 +35,7 @@ th a {
 th a:hover {
   color: white;
 }*/
-.navbar-brand{
-  color: white;
-}
-.nav-link{
-  color: white;
-}
-.nav-link:hover {
-  color: #DDDDDD;
-}
+
 #top {
   background-color: #13293D;
-  color: white;
 }
