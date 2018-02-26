@@ -1,4 +1,4 @@
-/*h1 {
+h1 {
   background-color: #13293D;
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
@@ -20,31 +20,46 @@ th {
   font-size: 20px;
   position: fixed;
 }
-table {
-  border-collapse: separate;
-  border-spacing: 4px;
-  background-color: #13293D;
-  position: relative;
+
+#home{
+  left: 850px;
+  bottom: 945px;
 }
-
-
+#history{
+  left: 950px;
+  bottom: 945px;
+}
+#functions{
+  left: 1050px;
+  bottom: 945px;
+}
+#others{
+  left: 1150px;
+  bottom: 945px;
+}
+#about{
+  left: 1250px;
+  bottom: 945px;
+}
+#resources{
+  left: 1350px;
+  bottom: 945px;
+}
 th a {
   color: #DDDDDD;
 }
 
 th a:hover {
   color: white;
-}*/
-.navbar-brand{
-  color: white;
 }
-.nav-link{
-  color: white;
-}
-.nav-link:hover {
-  color: #DDDDDD;
-}
+
 #top {
   background-color: #13293D;
-  color: white;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 4px;
+  background-color: #13293D;
+  position: relative;
 }
