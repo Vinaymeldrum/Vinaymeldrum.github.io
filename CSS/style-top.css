@@ -2,49 +2,20 @@ h1 {
   background-color: #13293D;
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
-  padding-top: 20px;
-  length: 3px;
+  padding: 20px;
   float: left;
-  width: 1110px;
-  position: fixed;
-  font-size: 35px;
-  height: 90px;
-  padding-left: 10px;
+  width: relative;
+  position: relative;
+  font-size: 27px;
 }
 
 th {
-  display: inline-block;
-  color: white;
-  padding: 5px;
+  display: inline-block color: white;
+  padding: 20px;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
-  font-size: 20px;
-  position: fixed;
+  font-size: 1.35em;
 }
 
-#home{
-  left: 850px;
-  bottom: 945px;
-}
-#history{
-  left: 950px;
-  bottom: 945px;
-}
-#functions{
-  left: 1050px;
-  bottom: 945px;
-}
-#others{
-  left: 1150px;
-  bottom: 945px;
-}
-#about{
-  left: 1250px;
-  bottom: 945px;
-}
-#resources{
-  left: 1350px;
-  bottom: 945px;
-}
 th a {
   color: #DDDDDD;
 }
@@ -55,11 +26,14 @@ th a:hover {
 
 #top {
   background-color: #13293D;
+  position: fixed;
+  top:0;
+  width: 100%
 }
 
 table {
   border-collapse: separate;
   border-spacing: 4px;
-  background-color: #13293D;
   position: relative;
+  margin-left: auto
 }
