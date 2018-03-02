@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Number Systems - RAM: Learning Resource</title>
+  <!-- Importing Bootstrap library. Source: https://getbootstrap.com/docs/4.0/components/carousel/ -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- Importing code from top.html -->
+  <script src="run-top-html.js" async></script>
+
+  <!-- Styling remainder of the page. -->
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  <!-- Importing Roboto font. -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Displaying top.html. -->
+  <div id="includedContent"></div>
+  <!-- Bootstrap code used to wrap site content. -->
+  <div class="container">
+    <!-- Text content. -->
+    <div id="bodycontent">
+      <h3>Number Systems</h3>
+      <p>Here, we will be discussing about the different types of number systems and how they relate to RAM.</p>
+      <p>
+        <h4>Finite Prime Field</h4> In a finite <b>prime</b> field, number of elements must be a <b>prime</b>. F_5 represents the number of elements that you are allowed. F_5 would be 5 elements, which would be 0, 1, 2, 3, and 4. It is similar to binary, however, instead of 0s
+        and 1s, you can specify the element based on what F_<b>(number)</b> you have. The mathematical operation to express the finite field of F_5 is: modulus 5 (0, 1, 2, 3, 4)
+        <br><br>
+        <table>
+          <tbody>
+            <tr>
+              <th style="text-align: right; font-weight: normal">4</th>
+            </tr>
+            <tr>
+              <td><u>+ 4</u></td>
+            </tr>
+            <tr>
+              <td style="text-align: right">13</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>4+4 = 8. Mod 5 of 8 (the remainder of 5/8) is 3. Therefore, in the first column, you put 3, and in the second column, you put 1 because you have to carry it over.
+        <br><br>Although related to computers, finite prime fields do not relate to RAM.
+      </p>
+      <h4>Binary</h4>
+      <p>
+        Computers communicate everything in 1s and 0s. The way this works is that you have to have a multiplier. Since there are 2 symbols, being 1 and 0, it means that for each column, you multiply by 2. An example is down below:<br><br>
+        <table>
+          <tbody>
+            <tr>
+              <th style="font-weight: normal">x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+              <th style="font-weight: normal">x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+              <th style="font-weight: normal">x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+              <th style="font-weight: normal">x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>4</td>
+              <td>2</td>
+              <td>1</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>If you wanted to represent the number 3 in binary, you would write it as 11. Because the first two spots are 2 and 1, by putting 1, it means that you want to add that place. If you wanted to represent the number 2, you would put: 10. In the
+        2nd column, the number 2 is represented. You do not need anything inside the 2nd column (1), so you put a 0. Binary is related to RAM because RAM is composed by a bunch of tiny bits. The RAM capacitor charges and discharges, storing either a 1
+        or 0 in the cell. However, the charge in this capacitor will slowly leak away, and must be refreshed periodically. Each byte communicates with the computer, holding temporary storage. This temporary storage is stored in binary, because it is the
+        fastest as it is base 2. In RAM, the higher amount of bits, the more things you can temporary store. The data that you store can be retrieved in any order, hence the name Random Access memory. As soon as you turn off your computer you lose all
+        your RAM storage. A more permanent way to store things in a computer is by using an SSD. An SSD is an average of around 1000 times slower than RAM storage.
+        <img src="http://d2r5da613aq50s.cloudfront.net/wp-content/uploads/402174.image0.jpg" alt="Binary" width="200px">
+        <img src="http://i.ebayimg.com/images/i/281171327163-0-1/s-l1000.jpg" alt="Binary" width="200px">
+      </p>
+      <p>
+        <h4>Octal</h4> Octal functions similarly to binary. However, the math uses modula 8 instead of 2.
+        <br><br>
+        <table>
+          <tr>
+            <th style="text-align: right; font-weight: normal">4</th>
+          </tr>
+          <tr>
+            <td><u>+ 4</u></td>
+          </tr>
+          <tr>
+            <td style="text-align: right">10</td>
+          </tr>
+        </table>
+        <br>
+        <table>
+          <thead>
+            <tr>
+              <th style="font-weight: normal">x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+              <th style="font-weight: normal">x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+              <th style="font-weight: normal">x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+              <th style="font-weight: normal">x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            </tr>
+            <tr>
+              <td>512</td>
+              <td>64</td>
+              <td>8</td>
+              <td>1</td>
+            </tr>
+          </thead>
+        </table>
+        <br>Although related to computers, octal does not relate to RAM.
+      </p>
+      <p>
+        <h4>Hexadecimal</h4> Hexadecimal functions similarly to binary. However, the math uses modula 16 instead of 2, as well as the symbol set, which are:<br>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Hexadecimal_multiplication_table.svg/2000px-Hexadecimal_multiplication_table.svg.png" alt="Hexadecimal table" width="200px">
+        <br><img src="https://i.pinimg.com/originals/fa/3f/8b/fa3f8b032f1df211cfa5a226b973f0e8.jpg" alt="Difference of different bases" width="200px"><br>
+        <br>Although related to computers, hexadecimals do not relate to RAM.
+      </p>
+      <p>
+        <h4>ASCII</h4> ASCII (American Standard Code for Information Interchange) is a character encoding standard for electronic devices. It represents text in computers etc. It was originally developed from telegraph code. Work on it began in October of 1960. The
+        first standard was published in 1963. It was updated in 1967 and then again in 1986. It encodes 128 characters into 7-bit integers as shown in this table. 95 are printable, including 0-9, a-z, A-Z, and punctuation.<br>
+        <br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/USASCII_code_chart.png/1200px-USASCII_code_chart.png" alt="Image of ASCII table" width="200px"><br>
+        <br>Although related to computers, ASCII does not relate to RAM.
+      </p>
+      <p>
+        <h4>Unicode</h4> Unicode is a standard way of representing characters on a computer. Common ways of encoding character are UTF-8, UTF-16 and UTF-32. It is a way to converting a sequence of characters to elements. It represents a set of characters, including ASCII
+        characters in a coding sequence.
+        <br><img src="https://qph.fs.quoracdn.net/main-qimg-1f98a83f3ffcb47b816497a356aeebac" alt="Image of Unicode text" width="200px"><br>
+        <br>Although related to computers, Unicode does not relate to RAM.
+      </p>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

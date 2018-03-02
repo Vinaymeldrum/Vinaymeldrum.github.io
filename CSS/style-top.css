@@ -13,7 +13,7 @@ th {
   display: inline-block color: white;
   padding: 20px;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
-  font-size: 1.35em;
+  font-size: 1.15em;
 }
 
 th a {
@@ -33,7 +33,7 @@ th a:hover {
 
 table {
   border-collapse: separate;
-  border-spacing: 4px;
+  border-spacing: 2px;
   position: relative;
   margin-left: auto
 }
