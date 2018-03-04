@@ -1,0 +1,123 @@
+/* Styling the top navigation bar for the Number Systems section of the website. */
+/* For some reason, the CSS file doesn't load properly if I combine two classes.
+It's pretty rude and I can't for the life of me figure out why.
+But it works if I make two CSS files and that's all that matters!! */
+
+/* Keeps navigation buttons to the left of dropdown on larger screens. */
+@media only screen and (min-width: 1380px) {
+  /* Sets dropdown properties for larger screens. */
+  .dropbtn {
+    background-color: #13293D;
+    border: none;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
+    padding: 20px;
+    float: left;
+    width: relative;
+    position: relative;
+    display: inline-block;
+    font-size: 27px;
+  }
+
+  /* Sets table properties for larger screens. */
+  #numbers-table {
+    border-collapse: separate;
+    border-spacing: 2px;
+    position: relative;
+    white-space: nowrap;
+    padding-top: 8px;
+    margin-left: auto;
+  }
+
+  /* Shows dropdown menu on hover. */
+  .dropdown:hover .dropdown-content {
+      display: block;
+      margin-top: 80px;
+  }
+}
+
+/* Moves navigation buttons to bottom of dropdown on smaller screens. */
+@media only screen and (max-width: 1380px) {
+  /* Sets dropdown properties for smaller screens. */
+  .dropbtn {
+    background-color: #13293D;
+    border: none;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
+    padding: 20px;
+    padding-bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+  }
+
+  /* Sets table properties for smaller screens. */
+  #numbers-table {
+    border-collapse: separate;
+    border-spacing: 2px;
+    position: relative;
+    margin: 0 auto;
+    white-space: nowrap;
+  }
+
+  /* Shows dropdown menu on hover. */
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+}
+
+/* Properties for all screen sizes */
+
+/* Sets table cell properties. */
+#numbers-table th {
+  color: white;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
+  font-size: 1.15em;
+}
+
+/* Sets text colours of navigation links. */
+#numbers-table th a {
+  color: #DDDDDD;
+}
+
+/* Changes text colours of navigation links on hover. */
+#numbers-table th a:hover {
+  color: white;
+}
+
+/* Top navigation bars. */
+#top-numbers {
+  background-color: #13293D;
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Dropdown content. */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown. */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Changes colour of dropdown links on hover. */
+.dropdown-content a:hover {
+  background-color: #ddd
+}
+
+/* Underlines dropdown text on hover. */
+.dropdown:hover .dropbtn {
+    text-decoration: underline;
+}

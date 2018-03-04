@@ -1,13 +1,24 @@
+/* Sets specifc margin for larger screens so that #bodycontent isn't overlapped by navigation bar. */
+@media only screen and (min-width: 1380px) {
+  body {
+    background-color: #006494;
+    margin-top: 60px
+  }
+}
+
+/* Sets specifc margin for smaller screens so that #bodycontent isn't overlapped by navigation bar. */
+@media only screen and (max-width: 1380px) {
+  body {
+    background-color: #006494;
+    margin-top: 120px
+  }
+}
+
 #bodycontent {
   background-color: #BBBBBB;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
   padding: 50px;
   height: 100%
-}
-
-body {
-  background-color: #006494;
-  margin-top: 60px
 }
 
 #robertdennard-img {
@@ -27,6 +38,12 @@ iframe {
   width: 420px;
   height: 315px;
 }
-#jk{
+
+#jk {
   float: center;
+}
+
+#octal-table td {
+  text-align: right;
+  padding: 4px;
 }

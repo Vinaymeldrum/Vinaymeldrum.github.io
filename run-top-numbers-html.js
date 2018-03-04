@@ -1,4 +1,4 @@
-// Importing code from top.html
+// Importing code from top-numbers.html
   function load(url, element) {
     req = new XMLHttpRequest();
     req.open("GET", url, false);
@@ -7,4 +7,4 @@
     element.innerHTML = req.responseText;
   }
 
-load("top.html", document.getElementById("includedContent"));
+load("top-numbers.html", document.getElementById("includedContent"));

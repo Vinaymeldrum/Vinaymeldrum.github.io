@@ -1,6 +1,6 @@
 # [RAM: Learning Resource](https://vinaymeldrum.github.io/)
-A website where you can learn about random access memory, also more commonly known as RAM.
+A website where you can learn about random access memory and number systems that relate to computers.
 
 Vinay Meldrum, Michael Lam, Jared Halls  
-February 23, 2018  
+March 6, 2018  
 ICS3O
