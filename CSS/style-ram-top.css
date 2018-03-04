@@ -4,7 +4,7 @@ It's pretty rude and I can't for the life of me figure out why.
 But it works if I make two CSS files and that's all that matters!! */
 
 /* Keeps navigation buttons to the left of dropdown on larger screens. */
-@media only screen and (min-width: 1380px) {
+@media only screen and (min-width: 1610px) {
   /* Sets dropdown properties for larger screens. */
   .dropbtn {
     background-color: #13293D;
@@ -37,7 +37,7 @@ But it works if I make two CSS files and that's all that matters!! */
 }
 
 /* Moves navigation buttons to bottom of dropdown on smaller screens. */
-@media only screen and (max-width: 1380px) {
+@media only screen and (max-width: 1610px) {
   /* Sets dropdown properties for smaller screens. */
   .dropbtn {
     background-color: #13293D;
