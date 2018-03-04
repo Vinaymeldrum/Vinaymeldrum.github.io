@@ -1,5 +1,5 @@
 /* Sets specifc margin for larger screens so that #bodycontent isn't overlapped by navigation bar. */
-@media only screen and (min-width: 1380px) {
+@media screen and (min-width: 1610px) {
   body {
     background-color: #006494;
     margin-top: 60px
@@ -7,11 +7,16 @@
 }
 
 /* Sets specifc margin for smaller screens so that #bodycontent isn't overlapped by navigation bar. */
-@media only screen and (max-width: 1380px) {
+@media screen and (max-width: 1610px) {
   body {
     background-color: #006494;
-    margin-top: 120px
+    margin-top: 120px;
+    height: 100%;
   }
+}
+
+.container{
+  height: 100%;
 }
 
 #bodycontent {
@@ -21,14 +26,16 @@
   height: 100%
 }
 
-#robertdennard-img {
+img {
   display: block;
-  text-align: center;
+  margin: 0 auto;
+}
+
+#site-counter {
+  display: inline-block;
 }
 
 #ram-img {
-  display: block;
-  text-align: center;
   margin-bottom: 20px;
 }
 
