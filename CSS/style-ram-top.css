@@ -27,6 +27,7 @@ But it works if I make two CSS files and that's all that matters!! */
     white-space: nowrap;
     padding-top: 8px;
     margin-left: auto;
+    text-align: right;
   }
 
   /* Shows dropdown menu on hover. */
@@ -47,7 +48,7 @@ But it works if I make two CSS files and that's all that matters!! */
     padding: 20px;
     padding-bottom: 0;
     width: 100%;
-    text-align: center;
+    text-align: left;
     font-size: 27px;
   }
 
@@ -73,7 +74,8 @@ But it works if I make two CSS files and that's all that matters!! */
   color: white;
   padding: 20px;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
-  font-size: 1.15em;
+  font-size: 20px;
+  float: left;
 }
 
 /* Sets text colours of navigation links. */
