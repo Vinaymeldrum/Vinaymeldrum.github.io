@@ -4,38 +4,24 @@
 It's pretty rude and I can't for the life of me figure out why.
 But it works if I make two CSS files and that's all that matters!! */
 
-/* Sets dropdown properties for larger screens. */
+/* Top navigation bars. */
 
-.dropbtn {
+#top-ram {
   background-color: #13293D;
-  border: none;
-  color: white;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
-  padding: 20px;
-  float: left;
-  width: relative;
-  position: relative;
-  display: inline-block;
-  font-size: 21px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-/* Sets table properties for larger screens. */
+/* Sets table properties. */
 
 #ram-table {
   border-collapse: separate;
   border-spacing: 2px;
   position: relative;
   white-space: nowrap;
-  padding-top: 8px;
   margin-left: auto;
   text-align: right;
-}
-
-/* Shows dropdown menu on hover. */
-
-.dropdown:hover .dropdown-content {
-  display: block;
-  margin-top: 70px;
 }
 
 /* Sets table cell properties. */
@@ -45,7 +31,6 @@ But it works if I make two CSS files and that's all that matters!! */
   padding: 20px;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
   font-size: 18px;
-  float: left;
 }
 
 /* Sets text colours of navigation links. */
@@ -60,13 +45,26 @@ But it works if I make two CSS files and that's all that matters!! */
   color: white;
 }
 
-/* Top navigation bars. */
+/* Sets dropdown properties. */
 
-#top-ram {
+.dropbtn {
   background-color: #13293D;
-  position: fixed;
-  top: 0;
-  width: 100%
+  border: none;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Helvetica", sans-serif;
+  padding: 20px;
+  float: left;
+  width: relative;
+  position: relative;
+  display: inline-block;
+  font-size: 21px;
+}
+
+/* Shows dropdown menu on hover. */
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-top: 70px;
 }
 
 /* Dropdown content. */

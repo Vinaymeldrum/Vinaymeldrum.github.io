@@ -1,11 +1,6 @@
-/* Sets specifc margin for larger screens so that #bodycontent isn't overlapped by navigation bar. */
 body {
   background-color: #006494;
   margin-top: 60px
-}
-
-.container{
-  height: 100%;
 }
 
 #bodycontent {
@@ -20,13 +15,19 @@ img {
   margin: 0 auto;
 }
 
-#site-counter {
-  display: inline-block;
-  width: 50px
-}
-
 #ram-img {
   margin-bottom: 20px;
+}
+
+#site-counter {
+    display: inline-block;
+    width: 50px
+}
+
+/* Vinay's Obama meme in about.html */
+#jk {
+  display: inline-block;
+  text-align: left;
 }
 
 iframe {
@@ -34,10 +35,6 @@ iframe {
   margin: auto;
   width: 420px;
   height: 315px;
-}
-
-#jk {
-  float: center;
 }
 
 #octal-table td {
